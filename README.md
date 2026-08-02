@@ -38,8 +38,7 @@ Hospital readmissions are costly and indicate poor patient outcomes.
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/Diabetes-Risk-Prediction.git
-cd Diabetes-Risk-Prediction
+https://github.com/syed-muhammad-ahmad/Diabetes-Risk-Prediction.git
 ```
 2.install requirements 
 ```bash
