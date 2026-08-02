@@ -48,19 +48,22 @@ pip install -r requirements.txt
 3.Run the Streamlit Dashboard 
 ```bash
 streamlit run app.py
+
 ```
 
 4.Project structure 
 ```bash
-Diabetes-Risk-Prediction/
+Diabetes-Readmission-Prediction/
 │
-├── Diabetes_Risk_Analysis.ipynb  # Jupyter notebook with full EDA and training
-├── app.py                        # Streamlit dashboard code
-├── model.joblib                  # Trained XGBoost model
-├── scaler.joblib                 # Fitted scaler
-├── columns.joblib                # Training columns for alignment
-├── requirements.txt              # Dependencies
-└── README.md                     # You are here
+├── Diabetes_Readmission_Prediction.ipynb
+├── Diabetes_Readmission_Presentation          
+├── Diabetes_Readmission_Report  
+├── app.py                        
+├── model.joblib                  
+├── scaler.joblib                
+├── columns.joblib                
+├── requirements.txt              
+└── README.md                     
 ```
 Key Insight
 XGBoost performed best due to its ability to handle non linear relationships and class imbalance 
